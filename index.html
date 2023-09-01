@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/icon.png" />
+    <title>SPS game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-4">
+                <div class="card">
+                    <img src="assets/stone.png" width="auto" height="350px">
+                    <button type="submit" class="btn btn-primary mt-3" value="stone" >Stone</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="assets/papper.png" alt="image" width="auto" height="350px">
+                    <button type="submit" class="btn btn-primary mt-3" value="paper">Paper</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="assets/scissor.png" alt="image" width="auto" height="350px">
+                    <button type="submit" class="btn btn-primary mt-3" value="scissor">Scissor</button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class ="col-4"></div>
+            <div class ="col-4">
+                <table class="table table-bordered">
+                    <th colspan="2" style="text-align: center;">Score Board</th>
+                    <tr>
+                        <td>Your choice is</td>
+                        <td id="yourc"></td>
+                    </tr>
+                    <tr>
+                        <td>Computer choice is</td>
+                        <td id="computerc"></td>
+                    </tr>
+                    <tr>
+                        <td>Result for the match</td>
+                        <td id="result"></td>
+                    </tr>
+                </table>
+                <button class="btn btn-success" style="text-align: center;" value="rematch">Rematch</button>
+            </div>
+        </div>
+    </div>
+    <script src="sps.js"></script>
+</body>
+</html>
