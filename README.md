@@ -22,11 +22,11 @@ You can try the game live here: [Rock, Paper, Scissors Game Demo](https://bala17
 ## Getting Started
 ### Prerequisites
 Before you start playing the game or deploying it on your website, ensure that you have a web browser installed.
-1.Open the index.html file in your web browser.
+-Open the index.html file in your web browser.
 
 ## How to Play
-1.Open the game in your web browser.
-2.Click on either "Rock," "Paper," or "Scissors" to make your choice.
-3.The computer opponent will also make a choice.
-4.The winner will be determined based on the game rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock).
-5.The game will keep track of your wins, losses, and match draws.
+-Open the game in your web browser.
+-Click on either "Rock," "Paper," or "Scissors" to make your choice.
+-The computer opponent will also make a choice.
+-The winner will be determined based on the game rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock).
+-The game will keep track of your wins, losses, and match draws.
